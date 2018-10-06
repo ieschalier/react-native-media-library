@@ -1,6 +1,5 @@
+import { NativeModules } from 'react-native'
 
-import { NativeModules } from 'react-native';
+const { RNMediaLibrary } = NativeModules
 
-const { RNMediaLibrary } = NativeModules;
-
-export default RNMediaLibrary;
+export default RNMediaLibrary
